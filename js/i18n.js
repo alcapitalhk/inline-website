@@ -76,6 +76,8 @@ window.I18N = {
     "cta.title": "Your trusted partner for sourcing building materials from China to the world.",
     "cta.email": "Email",
     "cta.tel": "Telephone",
+    "cta.addr": "Address",
+    "cta.addrval": "Suite 3108, 31/F, Two Exchange Square, 8 Connaught Place, Central, Hong Kong",
     "cta.button": "Start a conversation",
 
     "footer.tag": "International Trading · Building Materials · Global Supply",
@@ -158,6 +160,8 @@ window.I18N = {
     "cta.title": "您值得信赖的伙伴，将建筑材料从中国采购至全球。",
     "cta.email": "电邮",
     "cta.tel": "电话",
+    "cta.addr": "地址",
+    "cta.addrval": "香港中环康乐广场8号交易广场二期31楼3108室",
     "cta.button": "立即洽谈",
 
     "footer.tag": "国际贸易 · 建筑材料 · 全球供应",
@@ -240,6 +244,8 @@ window.I18N = {
     "cta.title": "您值得信賴的夥伴，將建築材料從中國採購至全球。",
     "cta.email": "電郵",
     "cta.tel": "電話",
+    "cta.addr": "地址",
+    "cta.addrval": "香港中環康樂廣場8號交易廣場二期31樓3108室",
     "cta.button": "立即洽談",
 
     "footer.tag": "國際貿易 · 建築材料 · 全球供應",

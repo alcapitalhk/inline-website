@@ -76,8 +76,8 @@ img { max-width: 100%; display: block; }
 }
 .nav__inner { display: flex; align-items: center; justify-content: space-between; height: 74px; }
 .nav__logo { display: inline-flex; align-items: center; }
-.nav__logo img { height: 46px; width: auto; display: block; }
-.footer .nav__logo img { height: 56px; }
+.nav__logo img { height: 62px; width: auto; display: block; }
+.footer .nav__logo img { height: 72px; }
 .nav__links { display: flex; gap: 2rem; }
 .nav__links a { color: var(--muted); font-size: .92rem; font-weight: 500; transition: color .2s; }
 .nav__links a:hover { color: var(--text); }
@@ -192,6 +192,10 @@ img { max-width: 100%; display: block; }
 .contactline:hover { border-color: var(--accent); transform: translateY(-3px); }
 .contactline__label { display: block; font-size: .72rem; text-transform: uppercase; letter-spacing: .16em; color: var(--muted); }
 .contactline__value { font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: 1.15rem; }
+.contactline--addr { min-width: 320px; max-width: 420px; }
+.contactline--addr .contactline__value { font-size: .98rem; font-weight: 500; line-height: 1.45; }
+html[data-lang="sc"] .contactline__value { font-family: "Noto Sans SC", sans-serif; }
+html[data-lang="tc"] .contactline__value { font-family: "Noto Sans TC", sans-serif; }
 
 /* ===== FOOTER ===== */
 .footer { padding: 48px 0; border-top: 1px solid var(--line); }
