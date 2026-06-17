@@ -153,11 +153,18 @@ img { max-width: 100%; display: block; }
 
 /* ---- Clients ---- */
 .clients { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
-.client { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 2rem 1.8rem; transition: transform .3s, border-color .3s; }
+.client { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 0; overflow: hidden; transition: transform .3s, border-color .3s; }
 .client:hover { transform: translateY(-6px); border-color: rgba(214,171,132,.4); }
-.client__name { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 1.5rem; letter-spacing: .03em; display: block; }
-.client__tag { display: inline-block; font-size: .72rem; text-transform: uppercase; letter-spacing: .14em; color: var(--accent); margin: .6rem 0 1rem; }
-.client p { color: var(--muted); font-size: .96rem; }
+.client__logo {
+  display: flex; align-items: center; justify-content: center;
+  height: 110px; padding: 0 2rem;
+  background: linear-gradient(160deg, rgba(255,255,255,.06), rgba(255,255,255,.01));
+  border-bottom: 1px solid var(--line);
+}
+.client__logo img { max-height: 38px; max-width: 78%; width: auto; object-fit: contain; opacity: .95; transition: opacity .3s, transform .3s; }
+.client:hover .client__logo img { opacity: 1; transform: scale(1.04); }
+.client__tag { display: inline-block; font-size: .72rem; text-transform: uppercase; letter-spacing: .14em; color: var(--accent); margin: 1.6rem 1.8rem .6rem; }
+.client p { color: var(--muted); font-size: .96rem; margin: 0 1.8rem 2rem; }
 
 /* ---- Sourcing strength ---- */
 .bignum { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: clamp(4rem, 11vw, 8rem); line-height: 1; letter-spacing: -.04em; color: var(--accent); margin: 1.5rem 0 1rem; }
