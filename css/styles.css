@@ -162,6 +162,8 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px solid var(--line);
 }
 .client__logo img { max-height: 38px; max-width: 78%; width: auto; object-fit: contain; opacity: .95; transition: opacity .3s, transform .3s; }
+.clients .client:nth-child(2) .client__logo img { max-height: 28px; } /* LIVONE */
+.clients .client:nth-child(3) .client__logo img { max-height: 26px; } /* TECCO */
 .client:hover .client__logo img { opacity: 1; transform: scale(1.04); }
 .client__tag { display: inline-block; font-size: .72rem; text-transform: uppercase; letter-spacing: .14em; color: var(--accent); margin: 1.6rem 1.8rem .6rem; }
 .client p { color: var(--muted); font-size: .96rem; margin: 0 1.8rem 2rem; }
@@ -188,12 +190,11 @@ img { max-width: 100%; display: block; }
 .cta__inner { position: relative; z-index: 1; max-width: 820px; margin: 0 auto; }
 .cta__title { font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: clamp(1.9rem, 4.5vw, 3rem); line-height: 1.12; letter-spacing: -.02em; margin-bottom: 2.5rem; }
 .cta__contacts { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2.5rem; }
-.contactline { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 1.1rem 1.8rem; text-align: left; min-width: 240px; transition: border-color .3s, transform .3s; }
+.contactline { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 1.1rem 1.5rem; text-align: left; flex: 1 1 200px; min-width: 0; transition: border-color .3s, transform .3s; }
 .contactline:hover { border-color: var(--accent); transform: translateY(-3px); }
 .contactline__label { display: block; font-size: .72rem; text-transform: uppercase; letter-spacing: .16em; color: var(--muted); }
 .contactline__value { font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: 1.15rem; }
-.contactline--addr { min-width: 320px; max-width: 420px; }
-.contactline--addr .contactline__value { font-size: .98rem; font-weight: 500; line-height: 1.45; }
+.contactline--addr .contactline__value { font-size: .82rem; font-weight: 500; line-height: 1.4; }
 html[data-lang="sc"] .contactline__value { font-family: "Noto Sans SC", sans-serif; }
 html[data-lang="tc"] .contactline__value { font-family: "Noto Sans TC", sans-serif; }
 
