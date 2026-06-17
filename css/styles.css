@@ -190,19 +190,20 @@ img { max-width: 100%; display: block; }
 .cta__inner { position: relative; z-index: 1; max-width: 820px; margin: 0 auto; }
 .cta__title { font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: clamp(1.9rem, 4.5vw, 3rem); line-height: 1.12; letter-spacing: -.02em; margin-bottom: 2.5rem; }
 .cta__contacts { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2.5rem; }
-.contactline { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 1.1rem 1.5rem; text-align: left; flex: 1 1 200px; min-width: 0; transition: border-color .3s, transform .3s; }
+.contactline { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 1.1rem 1.8rem; text-align: left; min-width: 240px; transition: border-color .3s, transform .3s; }
 .contactline:hover { border-color: var(--accent); transform: translateY(-3px); }
 .contactline__label { display: block; font-size: .72rem; text-transform: uppercase; letter-spacing: .16em; color: var(--muted); }
 .contactline__value { font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: 1.15rem; }
-.contactline--addr .contactline__value { font-size: .82rem; font-weight: 500; line-height: 1.4; }
-html[data-lang="sc"] .contactline__value { font-family: "Noto Sans SC", sans-serif; }
-html[data-lang="tc"] .contactline__value { font-family: "Noto Sans TC", sans-serif; }
 
 /* ===== FOOTER ===== */
 .footer { padding: 48px 0; border-top: 1px solid var(--line); }
 .footer__inner { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
 .footer__tag { color: var(--muted); font-size: .9rem; margin-top: .5rem; }
+.footer__right { text-align: right; }
 .footer__copy { color: var(--muted); font-size: .85rem; }
+.footer__addr { display: inline-block; margin-top: .45rem; color: var(--muted); font-size: .85rem; transition: color .2s; }
+.footer__addr:hover { color: var(--accent); }
+@media (max-width: 720px) { .footer__right { text-align: left; } }
 
 /* ===== Media images ===== */
 .grid-2--media { align-items: center; }
