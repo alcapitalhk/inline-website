@@ -266,7 +266,8 @@ html[data-lang="tc"] .feature h4, html[data-lang="tc"] .shot figcaption { font-f
   .grid-2--media .media { order: -1; max-height: 320px; }
   .hero__stats { grid-template-columns: repeat(2, 1fr); gap: 1.8rem; }
   .section { padding: 80px 0; }
-  .hero { padding: 130px 0 70px; }
+  .hero { padding: 130px 0 36px; }
+  #about { padding-top: 28px; }
 }
 @media (max-width: 520px) {
   .hero__stats { grid-template-columns: 1fr; }
