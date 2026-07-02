@@ -81,7 +81,8 @@ window.I18N = {
     "cta.button": "Start a conversation",
 
     "footer.tag": "International Trading · Building Materials · Global Supply",
-    "footer.copy": "© {year} Inline Group Limited. All rights reserved."
+    "footer.copy": "© {year} Inline Group Limited. All rights reserved.",
+    "footer.portal": "Enter Internal Portal"
   },
 
   sc: {
@@ -165,7 +166,8 @@ window.I18N = {
     "cta.button": "立即洽谈",
 
     "footer.tag": "国际贸易 · 建筑材料 · 全球供应",
-    "footer.copy": "© {year} Inline Group Limited 版权所有。"
+    "footer.copy": "© {year} Inline Group Limited 版权所有。",
+    "footer.portal": "进入内部门户"
   },
 
   tc: {
@@ -249,6 +251,7 @@ window.I18N = {
     "cta.button": "立即洽談",
 
     "footer.tag": "國際貿易 · 建築材料 · 全球供應",
-    "footer.copy": "© {year} Inline Group Limited 版權所有。"
+    "footer.copy": "© {year} Inline Group Limited 版權所有。",
+    "footer.portal": "進入內部門戶"
   }
 };

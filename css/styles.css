@@ -203,6 +203,7 @@ img { max-width: 100%; display: block; }
 .footer__copy { color: var(--muted); font-size: .85rem; }
 .footer__addr { display: inline-block; margin-top: .45rem; color: var(--muted); font-size: .85rem; transition: color .2s; }
 .footer__addr:hover { color: var(--accent); }
+.footer__portal { display: inline-flex; margin-top: 1rem; }
 @media (max-width: 720px) { .footer__right { text-align: left; } }
 
 /* ===== Media images ===== */
